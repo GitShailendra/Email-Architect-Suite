@@ -1,0 +1,1 @@
+ALTER TABLE sequence_connections DROP COLUMN custom_label;

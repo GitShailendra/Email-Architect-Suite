@@ -1,0 +1,1 @@
+ALTER TABLE email_blocks DROP COLUMN notes;

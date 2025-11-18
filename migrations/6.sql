@@ -1,0 +1,1 @@
+ALTER TABLE sequence_connections ADD COLUMN custom_label TEXT;

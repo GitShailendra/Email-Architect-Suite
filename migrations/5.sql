@@ -1,0 +1,1 @@
+ALTER TABLE email_blocks ADD COLUMN notes TEXT;
