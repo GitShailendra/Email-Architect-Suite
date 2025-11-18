@@ -1136,7 +1136,7 @@ function generateStaticContent(
 }
 
 
-// Rewrite email content with different tone (STATIC/DUMMY, NO OPENAI)
+// Rewrite email content with different tone (STATIC/DUMMY, NO OPENAI) 
 app.post("/api/ai/rewrite-content", authMiddleware, async (c) => {
   const user = c.get("user");
   const body = await c.req.json();
